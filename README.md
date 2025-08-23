@@ -58,21 +58,22 @@ LTspice Schematic & Simulations
 For cross-verification, the cell is simulated in LTspice. Setup includes appropriate pulse and voltage sources to model read/write cycles.
 
 LTspice 6T SRAM Schematic:
-![SRAM 6T LTspice Schematic]
+![Image](https://github.com/user-attachments/assets/f698290c-35d6-409b-8e10-a272dd9bdfbb)
+
 
 Waveform Analysis
 Transient analysis reveals correct memory cell behavior during various read and write events:
 
-![SRAM 6T LTspice Waveforms]
+![Image](https://github.com/user-attachments/assets/93e3ea66-c85c-4288-9c45-8c7793d583b5)
 
 Static Noise Margin (SNM) Analysis
 The classic "butterfly curve" is obtained by sweeping storage node voltages, which quantifies SRAM cell robustness to noise:
 
 LTspice SNM Circuit:
-![SNM LTspice Schematic]
+![Image](https://github.com/user-attachments/assets/81601306-0aaf-4f5f-911a-3d4415d5de8f)
 
-Butterfly Curve from LTspice:
-![SNM Butterfly Curve]
+![Image](https://github.com/user-attachments/assets/c7e0e5c0-dcf7-4ce1-9217-5b64879498cc)
+![Image](https://github.com/user-attachments/assets/d038b0fd-1626-4ce2-93de-65a4a62730a2)
 
 References & Getting Started
 See the main branch for scripts, source files, and netlists.
