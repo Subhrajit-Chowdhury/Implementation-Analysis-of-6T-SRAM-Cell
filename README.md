@@ -23,7 +23,8 @@ The classic 6T SRAM cell schematic shows two CMOS inverters cross-coupled to pre
 
 The schematic below is implemented in Cadence Virtuoso, modeling both the PMOS and NMOS devices, and the required connections for bit-lines, word-line, storage nodes (`Q`, `Qbar`). The setup is compatible with TSMC 180nm design rules.
 
-![SRAM 6T Cadence Schematic][2]
+![Image](https://github.com/user-attachments/assets/73d71a23-4da8-476d-99a6-53a7018be2b0)
+
 
 ***
 
