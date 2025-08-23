@@ -15,7 +15,7 @@ This repository demonstrates the design and simulation workflow for a standard 6
 
 The classic 6T SRAM cell schematic shows two CMOS inverters cross-coupled to preserve data, and access transistors (wordline-driven) for read/write operations. The typical layout includes internal storage nodes (`S1` and `S2`), bit-lines (`BL`, `BLB`), and a word-line (`WL`).
 
-![SRAM 6T Schematic Reference][1]
+<img width="649" height="343" alt="Image" src="https://github.com/user-attachments/assets/826163f2-3a1d-4495-8118-a09a2da89dbf" />
 
 ***
 
