@@ -54,21 +54,32 @@ The butterfly curve measures the cell's static noise margin (SNM), a key metric 
 
 ***
 
-## Getting Started
+LTspice Schematic & Simulations
+For cross-verification, the cell is simulated in LTspice. Setup includes appropriate pulse and voltage sources to model read/write cycles.
 
-1. Open the included schematic in Cadence Virtuoso.
-2. Run DC analysis for transfer curve inspection.
-3. Extract SNM using the butterfly curve method as shown in the images.
+LTspice 6T SRAM Schematic:
+![SRAM 6T LTspice Schematic]
 
-***
+Waveform Analysis
+Transient analysis reveals correct memory cell behavior during various read and write events:
 
-## Workflow Recap
+![SRAM 6T LTspice Waveforms]
 
-- Refer to the topological diagram for transistor connectivity.
-- Use Virtuoso for schematic drawing and simulation setup.
-- Verify cell operation with DC sweep and analyze noise margins.
+Static Noise Margin (SNM) Analysis
+The classic "butterfly curve" is obtained by sweeping storage node voltages, which quantifies SRAM cell robustness to noise:
 
-***
+LTspice SNM Circuit:
+![SNM LTspice Schematic]
+
+Butterfly Curve from LTspice:
+![SNM Butterfly Curve]
+
+References & Getting Started
+See the main branch for scripts, source files, and netlists.
+
+Open corresponding schematic files in Cadence Virtuoso or LTspice to reproduce results.
+
+For further analysis, refer to documentation and built-in simulation commands.
 
 ## Notes
 
