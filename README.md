@@ -1,5 +1,5 @@
 # Implementation-Analysis-of-6T-SRAM-Cell
-# SRAM 6T Cell: README
+# SRAM 6T Cell
 
 This repository demonstrates the design and simulation workflow for a standard 6-transistor (6T) SRAM cell, including schematic construction, DC analysis, and butterfly curve extraction using Cadence Virtuoso. Images from the TSMC 180nm process flow and Cadence environment are provided for reference.
 
